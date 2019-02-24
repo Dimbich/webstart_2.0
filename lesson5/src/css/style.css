@@ -1,0 +1,61 @@
+body {
+  background-color: #025167;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #39AECF;  
+}
+
+header, main {
+  padding: 15px 15px;
+  margin-right: 400px;
+}
+
+header > p {
+  margin-top: 0;
+}
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 400px;  
+  height: 100%;
+  border-left: 1px solid #ffffff;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1, p {
+  color:  #ffffff;
+}
+h2 {
+  color: #61B7CF;
+  text-decoration: underline;
+}
+
+span.note {
+  font-weight: bold;
+  background-color: #61B7CF;
+  color: #057D9F;
+  font-style: normal;
+}
+
+p span {
+  font-style: italic;
+}
+
+a {
+  color: #057D9F;
+  text-decoration: none;  
+}
+
+a:hover {
+  background-color: #FF8100;
+  text-decoration: underline;
+}
+
