@@ -27,12 +27,17 @@ aside {
 }
 
 h1, h2 {
-  text-align: center;
+  text-align: center;  
 }
 
 h1, p {
   color:  #ffffff;
 }
+
+p:nth-child(even) {
+  color: #ec9898;
+}
+
 h2 {
   color: #61B7CF;
   text-decoration: underline;
@@ -54,8 +59,10 @@ a {
   text-decoration: none;  
 }
 
+a:visited {
+  text-decoration: line-through;
+}
 a:hover {
   background-color: #FF8100;
   text-decoration: underline;
 }
-
