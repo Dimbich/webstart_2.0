@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #32325f; 
+}
+.container {
+  min-width: 1140px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 159px;
+}
+
+.brand {
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.social a{
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.hero {
+  padding-top: 70px;
+  padding-bottom: 190px;
+  background-color: #f4f5f7;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text {
+  width: 50%; 
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 26px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;  
+}
+
+.price-tag {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  display: block;  
+}
+
+.price {
+  display: block;
+  margin-bottom: 49px;
+  font-weight: 400;
+}
+
+.btn {
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  padding: 20px 30px;
+  color: #ffffff;
+  background-color: grey;
+}
+
+.btn-success {
+  background-color: #2dce89;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  background-color: #5e72e4;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px; 
+}
+
+.section-title {
+  display: block;
+  font-size: 48px;
+  font-weight: 700; 
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.block {
+  width: 21%;
+  margin-right: 2%;
+}
+
+.block-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 40px 0;
+  line-height: 1.4;
+}
+
+footer {
+  background-color: #32325f;
+  color: #fff;
+  padding: 70px 0;  
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.footer-block {
+  width: 33%;
+}
+
+footer h4{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 37px;
+}
+
+footer p {
+  line-height: 1.4;
+}
+
+footer a {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* .photo-wrap {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap
+} */
+
+.photo-wrap img {
+  display: inline-block;
+  margin: 33px 28px;
+}

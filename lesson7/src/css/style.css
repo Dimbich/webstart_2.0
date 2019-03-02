@@ -30,6 +30,10 @@ body {
   flex-direction: column;
 }
 
+.items:last-child {
+  margin-right: 0;
+}
+
 .item p:last-of-type {
   font-size: 18px;
   font-weight: 700;
