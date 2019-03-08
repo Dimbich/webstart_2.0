@@ -1,25 +1,12 @@
-/* * {
-  box-sizing: border-box;
-}
-*/
 body {
   /* font-family: sans-serif; */
   color: #32325f; 
 }
-/*
-.container {
-  max-width: 1140px;
-  width: 96%;
-  margin: 0 auto;
+
+img {
+  height: auto;
+  max-width: 100%;
 }
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 159px;
-}*/
-
-
 .social {
   width: 115px;
 }
@@ -110,7 +97,7 @@ body {
 }
 
 .photo-wrap img {
- min-width: 100%;
+ margin: 15px 0;
 }
 
 footer {
@@ -126,4 +113,9 @@ footer h4 {
 
 footer a, footer a:hover {
   color: #fff;
+}
+
+.photo-wrap img {
+  object-fit: cover;
+  width: 100%;
 }
